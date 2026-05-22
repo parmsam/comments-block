@@ -1,0 +1,981 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		220634762FC0CA1800480E24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220634752FC0CA1800480E24 /* AppDelegate.swift */; };
+		220634782FC0CA1800480E24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220634772FC0CA1800480E24 /* SceneDelegate.swift */; };
+		2206347B2FC0CA1800480E24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220634792FC0CA1800480E24 /* LaunchScreen.storyboard */; };
+		2206347E2FC0CA1800480E24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2206347C2FC0CA1800480E24 /* Main.storyboard */; };
+		220634872FC0CA1800480E24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220634862FC0CA1800480E24 /* AppDelegate.swift */; };
+		2206348A2FC0CA1800480E24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220634882FC0CA1800480E24 /* Main.storyboard */; };
+		220634912FC0CA1800480E24 /* Comments Block Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 220634902FC0CA1800480E24 /* Comments Block Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2206349B2FC0CA1800480E24 /* Comments Block Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2206349A2FC0CA1800480E24 /* Comments Block Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		220634A02FC0CA1800480E24 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 220634652FC0CA1700480E24 /* Main.html */; };
+		220634A12FC0CA1800480E24 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 220634652FC0CA1700480E24 /* Main.html */; };
+		220634A22FC0CA1800480E24 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 220634672FC0CA1700480E24 /* Icon.png */; };
+		220634A32FC0CA1800480E24 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 220634672FC0CA1700480E24 /* Icon.png */; };
+		220634A42FC0CA1800480E24 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 220634682FC0CA1700480E24 /* Style.css */; };
+		220634A52FC0CA1800480E24 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 220634682FC0CA1700480E24 /* Style.css */; };
+		220634A62FC0CA1800480E24 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 220634692FC0CA1700480E24 /* Script.js */; };
+		220634A72FC0CA1800480E24 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 220634692FC0CA1700480E24 /* Script.js */; };
+		220634A82FC0CA1800480E24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2206346A2FC0CA1700480E24 /* ViewController.swift */; };
+		220634A92FC0CA1800480E24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2206346A2FC0CA1700480E24 /* ViewController.swift */; };
+		220634AA2FC0CA1800480E24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2206346B2FC0CA1800480E24 /* Assets.xcassets */; };
+		220634AB2FC0CA1800480E24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2206346B2FC0CA1800480E24 /* Assets.xcassets */; };
+		220634AC2FC0CA1800480E24 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2206346D2FC0CA1800480E24 /* SafariWebExtensionHandler.swift */; };
+		220634AD2FC0CA1800480E24 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2206346D2FC0CA1800480E24 /* SafariWebExtensionHandler.swift */; };
+		220634C32FC0CA1800480E24 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 220634BF2FC0CA1800480E24 /* popup.js */; };
+		220634C42FC0CA1800480E24 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 220634C02FC0CA1800480E24 /* popup.html */; };
+		220634C52FC0CA1800480E24 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 220634C12FC0CA1800480E24 /* manifest.json */; };
+		220634C62FC0CA1800480E24 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 220634C22FC0CA1800480E24 /* content.js */; };
+		220634C72FC0CA1800480E24 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 220634BF2FC0CA1800480E24 /* popup.js */; };
+		220634C82FC0CA1800480E24 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 220634C02FC0CA1800480E24 /* popup.html */; };
+		220634C92FC0CA1800480E24 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 220634C12FC0CA1800480E24 /* manifest.json */; };
+		220634CA2FC0CA1800480E24 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 220634C22FC0CA1800480E24 /* content.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		220634922FC0CA1800480E24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2206345F2FC0CA1700480E24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2206348F2FC0CA1800480E24;
+			remoteInfo = "Comments Block Extension (iOS)";
+		};
+		2206349C2FC0CA1800480E24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2206345F2FC0CA1700480E24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 220634992FC0CA1800480E24;
+			remoteInfo = "Comments Block Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		220634B32FC0CA1800480E24 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				220634912FC0CA1800480E24 /* Comments Block Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220634BA2FC0CA1800480E24 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2206349B2FC0CA1800480E24 /* Comments Block Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		220634662FC0CA1700480E24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		220634672FC0CA1700480E24 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		220634682FC0CA1700480E24 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		220634692FC0CA1700480E24 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		2206346A2FC0CA1700480E24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2206346B2FC0CA1800480E24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2206346D2FC0CA1800480E24 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		220634722FC0CA1800480E24 /* Comments Block.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Comments Block.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		220634752FC0CA1800480E24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		220634772FC0CA1800480E24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2206347A2FC0CA1800480E24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2206347D2FC0CA1800480E24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2206347F2FC0CA1800480E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		220634842FC0CA1800480E24 /* Comments Block.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Comments Block.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		220634862FC0CA1800480E24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		220634892FC0CA1800480E24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2206348B2FC0CA1800480E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		220634902FC0CA1800480E24 /* Comments Block Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Comments Block Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		220634952FC0CA1800480E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2206349A2FC0CA1800480E24 /* Comments Block Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Comments Block Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2206349F2FC0CA1800480E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		220634BF2FC0CA1800480E24 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = ../../extension/popup.js; sourceTree = "<group>"; };
+		220634C02FC0CA1800480E24 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = ../../extension/popup.html; sourceTree = "<group>"; };
+		220634C12FC0CA1800480E24 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../extension/manifest.json; sourceTree = "<group>"; };
+		220634C22FC0CA1800480E24 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = ../../extension/content.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2206346F2FC0CA1800480E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220634812FC0CA1800480E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2206348D2FC0CA1800480E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220634972FC0CA1800480E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2206345E2FC0CA1700480E24 = {
+			isa = PBXGroup;
+			children = (
+				220634632FC0CA1700480E24 /* Shared (App) */,
+				2206346C2FC0CA1800480E24 /* Shared (Extension) */,
+				220634742FC0CA1800480E24 /* iOS (App) */,
+				220634852FC0CA1800480E24 /* macOS (App) */,
+				220634942FC0CA1800480E24 /* iOS (Extension) */,
+				2206349E2FC0CA1800480E24 /* macOS (Extension) */,
+				220634732FC0CA1800480E24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		220634632FC0CA1700480E24 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				2206346A2FC0CA1700480E24 /* ViewController.swift */,
+				2206346B2FC0CA1800480E24 /* Assets.xcassets */,
+				220634642FC0CA1700480E24 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		220634642FC0CA1700480E24 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				220634652FC0CA1700480E24 /* Main.html */,
+				220634672FC0CA1700480E24 /* Icon.png */,
+				220634682FC0CA1700480E24 /* Style.css */,
+				220634692FC0CA1700480E24 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2206346C2FC0CA1800480E24 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				220634BE2FC0CA1800480E24 /* Resources */,
+				2206346D2FC0CA1800480E24 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		220634732FC0CA1800480E24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				220634722FC0CA1800480E24 /* Comments Block.app */,
+				220634842FC0CA1800480E24 /* Comments Block.app */,
+				220634902FC0CA1800480E24 /* Comments Block Extension.appex */,
+				2206349A2FC0CA1800480E24 /* Comments Block Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		220634742FC0CA1800480E24 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				220634752FC0CA1800480E24 /* AppDelegate.swift */,
+				220634772FC0CA1800480E24 /* SceneDelegate.swift */,
+				220634792FC0CA1800480E24 /* LaunchScreen.storyboard */,
+				2206347C2FC0CA1800480E24 /* Main.storyboard */,
+				2206347F2FC0CA1800480E24 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		220634852FC0CA1800480E24 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				220634862FC0CA1800480E24 /* AppDelegate.swift */,
+				220634882FC0CA1800480E24 /* Main.storyboard */,
+				2206348B2FC0CA1800480E24 /* Info.plist */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		220634942FC0CA1800480E24 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				220634952FC0CA1800480E24 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		2206349E2FC0CA1800480E24 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				2206349F2FC0CA1800480E24 /* Info.plist */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		220634BE2FC0CA1800480E24 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				220634BF2FC0CA1800480E24 /* popup.js */,
+				220634C02FC0CA1800480E24 /* popup.html */,
+				220634C12FC0CA1800480E24 /* manifest.json */,
+				220634C22FC0CA1800480E24 /* content.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		220634712FC0CA1800480E24 /* Comments Block (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220634B42FC0CA1800480E24 /* Build configuration list for PBXNativeTarget "Comments Block (iOS)" */;
+			buildPhases = (
+				2206346E2FC0CA1800480E24 /* Sources */,
+				2206346F2FC0CA1800480E24 /* Frameworks */,
+				220634702FC0CA1800480E24 /* Resources */,
+				220634B32FC0CA1800480E24 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				220634932FC0CA1800480E24 /* PBXTargetDependency */,
+			);
+			name = "Comments Block (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Comments Block (iOS)";
+			productReference = 220634722FC0CA1800480E24 /* Comments Block.app */;
+			productType = "com.apple.product-type.application";
+		};
+		220634832FC0CA1800480E24 /* Comments Block (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220634BB2FC0CA1800480E24 /* Build configuration list for PBXNativeTarget "Comments Block (macOS)" */;
+			buildPhases = (
+				220634802FC0CA1800480E24 /* Sources */,
+				220634812FC0CA1800480E24 /* Frameworks */,
+				220634822FC0CA1800480E24 /* Resources */,
+				220634BA2FC0CA1800480E24 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2206349D2FC0CA1800480E24 /* PBXTargetDependency */,
+			);
+			name = "Comments Block (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Comments Block (macOS)";
+			productReference = 220634842FC0CA1800480E24 /* Comments Block.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2206348F2FC0CA1800480E24 /* Comments Block Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220634B02FC0CA1800480E24 /* Build configuration list for PBXNativeTarget "Comments Block Extension (iOS)" */;
+			buildPhases = (
+				2206348C2FC0CA1800480E24 /* Sources */,
+				2206348D2FC0CA1800480E24 /* Frameworks */,
+				2206348E2FC0CA1800480E24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Comments Block Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Comments Block Extension (iOS)";
+			productReference = 220634902FC0CA1800480E24 /* Comments Block Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		220634992FC0CA1800480E24 /* Comments Block Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220634B72FC0CA1800480E24 /* Build configuration list for PBXNativeTarget "Comments Block Extension (macOS)" */;
+			buildPhases = (
+				220634962FC0CA1800480E24 /* Sources */,
+				220634972FC0CA1800480E24 /* Frameworks */,
+				220634982FC0CA1800480E24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Comments Block Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Comments Block Extension (macOS)";
+			productReference = 2206349A2FC0CA1800480E24 /* Comments Block Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2206345F2FC0CA1700480E24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					220634712FC0CA1800480E24 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					220634832FC0CA1800480E24 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					2206348F2FC0CA1800480E24 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					220634992FC0CA1800480E24 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+				};
+			};
+			buildConfigurationList = 220634622FC0CA1700480E24 /* Build configuration list for PBXProject "Comments Block" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2206345E2FC0CA1700480E24;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 220634732FC0CA1800480E24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				220634712FC0CA1800480E24 /* Comments Block (iOS) */,
+				220634832FC0CA1800480E24 /* Comments Block (macOS) */,
+				2206348F2FC0CA1800480E24 /* Comments Block Extension (iOS) */,
+				220634992FC0CA1800480E24 /* Comments Block Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		220634702FC0CA1800480E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220634A22FC0CA1800480E24 /* Icon.png in Resources */,
+				2206347B2FC0CA1800480E24 /* LaunchScreen.storyboard in Resources */,
+				220634A02FC0CA1800480E24 /* Main.html in Resources */,
+				220634A62FC0CA1800480E24 /* Script.js in Resources */,
+				220634AA2FC0CA1800480E24 /* Assets.xcassets in Resources */,
+				2206347E2FC0CA1800480E24 /* Main.storyboard in Resources */,
+				220634A42FC0CA1800480E24 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220634822FC0CA1800480E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220634A32FC0CA1800480E24 /* Icon.png in Resources */,
+				220634A52FC0CA1800480E24 /* Style.css in Resources */,
+				2206348A2FC0CA1800480E24 /* Main.storyboard in Resources */,
+				220634A72FC0CA1800480E24 /* Script.js in Resources */,
+				220634AB2FC0CA1800480E24 /* Assets.xcassets in Resources */,
+				220634A12FC0CA1800480E24 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2206348E2FC0CA1800480E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220634CA2FC0CA1800480E24 /* content.js in Resources */,
+				220634C72FC0CA1800480E24 /* popup.js in Resources */,
+				220634C92FC0CA1800480E24 /* manifest.json in Resources */,
+				220634C82FC0CA1800480E24 /* popup.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220634982FC0CA1800480E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220634C62FC0CA1800480E24 /* content.js in Resources */,
+				220634C32FC0CA1800480E24 /* popup.js in Resources */,
+				220634C52FC0CA1800480E24 /* manifest.json in Resources */,
+				220634C42FC0CA1800480E24 /* popup.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2206346E2FC0CA1800480E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220634A82FC0CA1800480E24 /* ViewController.swift in Sources */,
+				220634762FC0CA1800480E24 /* AppDelegate.swift in Sources */,
+				220634782FC0CA1800480E24 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220634802FC0CA1800480E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220634A92FC0CA1800480E24 /* ViewController.swift in Sources */,
+				220634872FC0CA1800480E24 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2206348C2FC0CA1800480E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220634AC2FC0CA1800480E24 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220634962FC0CA1800480E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220634AD2FC0CA1800480E24 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		220634932FC0CA1800480E24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2206348F2FC0CA1800480E24 /* Comments Block Extension (iOS) */;
+			targetProxy = 220634922FC0CA1800480E24 /* PBXContainerItemProxy */;
+		};
+		2206349D2FC0CA1800480E24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 220634992FC0CA1800480E24 /* Comments Block Extension (macOS) */;
+			targetProxy = 2206349C2FC0CA1800480E24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		220634652FC0CA1700480E24 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				220634662FC0CA1700480E24 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		220634792FC0CA1800480E24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2206347A2FC0CA1800480E24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2206347C2FC0CA1800480E24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2206347D2FC0CA1800480E24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		220634882FC0CA1800480E24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				220634892FC0CA1800480E24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		220634AE2FC0CA1800480E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		220634AF2FC0CA1800480E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		220634B12FC0CA1800480E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Comments Block Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sam.comments-block.Extension";
+				PRODUCT_NAME = "Comments Block Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		220634B22FC0CA1800480E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Comments Block Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sam.comments-block.Extension";
+				PRODUCT_NAME = "Comments Block Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		220634B52FC0CA1800480E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Comments Block";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sam.comments-block";
+				PRODUCT_NAME = "Comments Block";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		220634B62FC0CA1800480E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Comments Block";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sam.comments-block";
+				PRODUCT_NAME = "Comments Block";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		220634B82FC0CA1800480E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Comments Block Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sam.comments-block.Extension";
+				PRODUCT_NAME = "Comments Block Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		220634B92FC0CA1800480E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Comments Block Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sam.comments-block.Extension";
+				PRODUCT_NAME = "Comments Block Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		220634BC2FC0CA1800480E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Comments Block";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sam.comments-block";
+				PRODUCT_NAME = "Comments Block";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		220634BD2FC0CA1800480E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Comments Block";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sam.comments-block";
+				PRODUCT_NAME = "Comments Block";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		220634622FC0CA1700480E24 /* Build configuration list for PBXProject "Comments Block" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220634AE2FC0CA1800480E24 /* Debug */,
+				220634AF2FC0CA1800480E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		220634B02FC0CA1800480E24 /* Build configuration list for PBXNativeTarget "Comments Block Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220634B12FC0CA1800480E24 /* Debug */,
+				220634B22FC0CA1800480E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		220634B42FC0CA1800480E24 /* Build configuration list for PBXNativeTarget "Comments Block (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220634B52FC0CA1800480E24 /* Debug */,
+				220634B62FC0CA1800480E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		220634B72FC0CA1800480E24 /* Build configuration list for PBXNativeTarget "Comments Block Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220634B82FC0CA1800480E24 /* Debug */,
+				220634B92FC0CA1800480E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		220634BB2FC0CA1800480E24 /* Build configuration list for PBXNativeTarget "Comments Block (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220634BC2FC0CA1800480E24 /* Debug */,
+				220634BD2FC0CA1800480E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2206345F2FC0CA1700480E24 /* Project object */;
+}
