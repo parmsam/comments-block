@@ -45,7 +45,7 @@ Safari blocks unsigned extensions by default. To enable them:
 2. Open the **Developer** menu and click **Allow Unsigned Extensions**
 3. Open **Safari → Settings → Extensions**, enable **Comments Block**, and grant it permission for `youtube.com`
 
-> **Note:** "Allow Unsigned Extensions" resets every time Safari restarts. You'll need to re-enable it from the Developer menu each session. To avoid this, sign the extension with an [Apple Developer account](https://developer.apple.com/programs/) ($99/year).
+> **Note:** "Allow Unsigned Extensions" resets every time Safari restarts — re-enable it from the Developer menu each session. The extension itself stays installed and enabled; your toggle settings are also remembered. To avoid the Developer menu step entirely, sign the extension with an [Apple Developer account](https://developer.apple.com/programs/) ($99/year).
 
 ## Usage
 
