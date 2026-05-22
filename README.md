@@ -37,9 +37,15 @@ open "Comments Block/Comments Block.xcodeproj"
 
 In Xcode, press **⌘R** to build and run. This installs a small wrapper app that hosts the extension.
 
-**4. Enable in Safari**
+**4. Allow unsigned extensions**
 
-Open **Safari → Settings → Extensions**, enable **Comments Block**, and grant it permission for `youtube.com`.
+Safari blocks unsigned extensions by default. To enable them:
+
+1. Open **Safari → Settings → Advanced** and check **Show Developer menu in menu bar**
+2. Open the **Developer** menu and click **Allow Unsigned Extensions**
+3. Open **Safari → Settings → Extensions**, enable **Comments Block**, and grant it permission for `youtube.com`
+
+> **Note:** "Allow Unsigned Extensions" resets every time you restart your Mac, so you'll need to re-enable it from the Developer menu each time.
 
 ## Usage
 
