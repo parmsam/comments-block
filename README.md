@@ -35,7 +35,7 @@ xcrun safari-web-extension-converter \
 open "Comments Block/Comments Block.xcodeproj"
 ```
 
-In Xcode, press **⌘R** to build and run. This installs a small wrapper app that hosts the extension.
+In Xcode, press **⌘R** to build and run. This installs a small wrapper app that hosts the extension. Keep Safari open during the build so the extension registers correctly.
 
 **4. Allow unsigned extensions**
 
