@@ -37,6 +37,14 @@
 		220634C82FC0CA1800480E24 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 220634C02FC0CA1800480E24 /* popup.html */; };
 		220634C92FC0CA1800480E24 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 220634C12FC0CA1800480E24 /* manifest.json */; };
 		220634CA2FC0CA1800480E24 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 220634C22FC0CA1800480E24 /* content.js */; };
+		220634CF2FC0CA1800480E24 /* icon-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 220634CB2FC0CA1800480E24 /* icon-16.png */; };
+		220634D02FC0CA1800480E24 /* icon-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 220634CC2FC0CA1800480E24 /* icon-32.png */; };
+		220634D12FC0CA1800480E24 /* icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 220634CD2FC0CA1800480E24 /* icon-48.png */; };
+		220634D22FC0CA1800480E24 /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 220634CE2FC0CA1800480E24 /* icon-128.png */; };
+		220634D32FC0CA1800480E24 /* icon-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 220634CB2FC0CA1800480E24 /* icon-16.png */; };
+		220634D42FC0CA1800480E24 /* icon-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 220634CC2FC0CA1800480E24 /* icon-32.png */; };
+		220634D52FC0CA1800480E24 /* icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 220634CD2FC0CA1800480E24 /* icon-48.png */; };
+		220634D62FC0CA1800480E24 /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 220634CE2FC0CA1800480E24 /* icon-128.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +115,10 @@
 		220634C02FC0CA1800480E24 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = ../../extension/popup.html; sourceTree = "<group>"; };
 		220634C12FC0CA1800480E24 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../extension/manifest.json; sourceTree = "<group>"; };
 		220634C22FC0CA1800480E24 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = ../../extension/content.js; sourceTree = "<group>"; };
+		220634CB2FC0CA1800480E24 /* icon-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-16.png"; path = ../../extension/icon-16.png; sourceTree = "<group>"; };
+		220634CC2FC0CA1800480E24 /* icon-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-32.png"; path = ../../extension/icon-32.png; sourceTree = "<group>"; };
+		220634CD2FC0CA1800480E24 /* icon-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-48.png"; path = ../../extension/icon-48.png; sourceTree = "<group>"; };
+		220634CE2FC0CA1800480E24 /* icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-128.png"; path = ../../extension/icon-128.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +252,10 @@
 				220634C02FC0CA1800480E24 /* popup.html */,
 				220634C12FC0CA1800480E24 /* manifest.json */,
 				220634C22FC0CA1800480E24 /* content.js */,
+				220634CB2FC0CA1800480E24 /* icon-16.png */,
+				220634CC2FC0CA1800480E24 /* icon-32.png */,
+				220634CD2FC0CA1800480E24 /* icon-48.png */,
+				220634CE2FC0CA1800480E24 /* icon-128.png */,
 			);
 			name = Resources;
 			path = "Shared (Extension)";
@@ -410,6 +426,10 @@
 				220634C72FC0CA1800480E24 /* popup.js in Resources */,
 				220634C92FC0CA1800480E24 /* manifest.json in Resources */,
 				220634C82FC0CA1800480E24 /* popup.html in Resources */,
+				220634CF2FC0CA1800480E24 /* icon-16.png in Resources */,
+				220634D02FC0CA1800480E24 /* icon-32.png in Resources */,
+				220634D12FC0CA1800480E24 /* icon-48.png in Resources */,
+				220634D22FC0CA1800480E24 /* icon-128.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +441,10 @@
 				220634C32FC0CA1800480E24 /* popup.js in Resources */,
 				220634C52FC0CA1800480E24 /* manifest.json in Resources */,
 				220634C42FC0CA1800480E24 /* popup.html in Resources */,
+				220634D32FC0CA1800480E24 /* icon-16.png in Resources */,
+				220634D42FC0CA1800480E24 /* icon-32.png in Resources */,
+				220634D52FC0CA1800480E24 /* icon-48.png in Resources */,
+				220634D62FC0CA1800480E24 /* icon-128.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
