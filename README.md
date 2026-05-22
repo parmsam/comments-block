@@ -1,6 +1,6 @@
 # Comments Block
 
-A Safari extension that hides YouTube comments and/or the recommendations sidebar. Toggled per-feature from the Safari toolbar.
+A Safari extension that hides distracting YouTube UI elements. Toggled per-feature from the Safari toolbar.
 
 ## Requirements
 
@@ -53,5 +53,7 @@ Click the **Comments Block** icon in the Safari toolbar to toggle:
 
 - **Hide comments** — removes the comment section below videos (on by default)
 - **Hide recommendations** — removes the suggested videos sidebar (off by default)
+- **Hide live chat** — removes the live chat panel on streams (off by default)
+- **Hide Shorts** — removes the Shorts shelves from the homepage and feed (off by default)
 
 Settings are saved per-browser and apply immediately without a page reload.
