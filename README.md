@@ -53,7 +53,7 @@ The **Comments Block** icon will appear in your toolbar. Pin it from the puzzle-
 
 The extension is removed when Firefox restarts.
 
-### Persistent install via web-ext
+### Development with web-ext
 
 Install [`web-ext`](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/) globally:
 
@@ -68,12 +68,33 @@ cd extension
 web-ext run
 ```
 
-Build a signed `.xpi` for sideloading or submission to [addons.mozilla.org](https://addons.mozilla.org):
+### Sideloading (self-distribution)
+
+Unlike Chrome (load unpacked) and Safari (allow unsigned extensions), Firefox requires all persistent extensions to be signed by Mozilla — even for self-distribution. To share the extension as a `.xpi` file without a public AMO listing, sign it as an unlisted add-on. You'll need [AMO API credentials](https://addons.mozilla.org/developers/addon/api/key/).
 
 ```bash
 cd extension
 web-ext build        # produces web-ext-artifacts/comments_block-1.0.zip
-web-ext sign --api-key=... --api-secret=...
+web-ext sign --channel=unlisted --api-key=... --api-secret=...
+```
+
+This produces a signed `.xpi` that users can install via **File → Open File…** in Firefox. The add-on won't appear in public AMO search results.
+
+### Submit to Firefox Add-ons (AMO)
+
+To publish the extension publicly on [addons.mozilla.org](https://addons.mozilla.org):
+
+1. Build the package:
+   ```bash
+   cd extension
+   web-ext build
+   ```
+2. Go to [addons.mozilla.org/developers](https://addons.mozilla.org/developers/), click **Submit a New Add-on**, and upload the `.zip` from `web-ext-artifacts/`.
+
+Alternatively, sign and submit in one step using the CLI:
+
+```bash
+web-ext sign --channel=listed --api-key=... --api-secret=...
 ```
 
 ---
