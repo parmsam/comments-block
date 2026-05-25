@@ -26,5 +26,11 @@
       "48": "icon-48.png",
       "128": "icon-128.png"
     }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "comments-block@parmsam",
+      "strict_min_version": "109.0"
+    }
   }
 }

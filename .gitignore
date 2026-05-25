@@ -1,5 +1,11 @@
+# macOS
 .DS_Store
+
+# Xcode / Safari build artifacts
 *.xcuserstate
 xcuserdata/
 DerivedData/
 *.xcworkspace/xcuserdata/
+
+# Firefox web-ext packaging output
+web-ext-artifacts/
