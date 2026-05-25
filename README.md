@@ -13,17 +13,19 @@ A Safari extension that hides distracting YouTube UI elements. Toggled per-featu
 **1. Clone the repo**
 
 ```bash
-git clone https://github.com/yourname/comments-block.git
+git clone https://github.com/parmsam/comments-block.git
 cd comments-block
 ```
 
 **2. Convert the web extension to an Xcode project**
 
+Replace `com.example.comments-block` with a bundle identifier of your own (e.g. `com.yourname.comments-block`).
+
 ```bash
 xcrun safari-web-extension-converter \
   extension \
   --app-name "Comments Block" \
-  --bundle-identifier com.yourname.comments-block \
+  --bundle-identifier com.example.comments-block \
   --swift \
   --project-location . \
   --no-open
@@ -49,6 +51,10 @@ Safari blocks unsigned extensions by default. To enable them:
 
 ## Usage
 
+| Some toggles on | All toggles on |
+|---|---|
+| ![Popup with some toggles on](screenshots/popup.png) | ![Popup with all toggles on](screenshots/popup-all-enabled.png) |
+
 Click the **Comments Block** icon in the Safari toolbar to toggle:
 
 - **Hide comments** — removes the comment section below videos (on by default)
@@ -57,3 +63,8 @@ Click the **Comments Block** icon in the Safari toolbar to toggle:
 - **Hide Shorts** — removes the Shorts shelves from the homepage and feed (off by default)
 
 Settings are saved per-browser and apply immediately without a page reload.
+
+## Uninstall
+
+1. Open **Safari → Settings → Extensions**, disable **Comments Block**, then click **Uninstall**.
+2. Delete the wrapper app from `/Applications` (or wherever Xcode installed it).
