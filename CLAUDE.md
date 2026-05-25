@@ -75,6 +75,10 @@ cd extension
 web-ext build    # output in web-ext-artifacts/ (gitignored)
 ```
 
+## Workflow
+
+After completing any meaningful change (new feature, bug fix, docs update, refactor), commit and push to `origin/main` without waiting to be asked.
+
 ## Gotchas
 
 - YouTube is a single-page app. Always ensure `yt-navigate-finish` listener is present in `content.js` or selector changes won't apply after navigation.
