@@ -84,4 +84,4 @@ After completing any meaningful change (new feature, bug fix, docs update, refac
 - YouTube is a single-page app. Always ensure `yt-navigate-finish` listener is present in `content.js` or selector changes won't apply after navigation.
 - The `Comments Block/` Xcode project should not be manually edited for extension logic — make changes in `extension/` and rebuild.
 - `chrome.storage.sync` is used (not `local`) so settings sync across devices when the user is signed into their browser.
-- "Allow Unsigned Extensions" in Safari resets on every browser restart — this is a Safari limitation, not a bug in the extension.
+- After each Safari restart, two things reset (unsigned extension limitation): (1) the extension disappears from Safari's Extensions list — re-run the wrapper app to re-register it; (2) "Allow Unsigned Extensions" must be re-enabled from the Develop menu. Workaround: add the wrapper app to Login Items so it re-registers on startup, or sign with an Apple Developer account ($99/year).
