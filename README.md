@@ -148,6 +148,14 @@ Safari blocks unsigned extensions by default. To enable them:
 >
 > Your toggle settings are always remembered. To avoid this permanently, either (a) add the wrapper app to **System Settings → General → Login Items** so it re-registers on every startup, or (b) sign the extension with an [Apple Developer account](https://developer.apple.com/programs/) ($99/year).
 
+**Quick re-register script:** Instead of opening Xcode, you can run the included helper script from the repo root:
+
+```bash
+./reregister-safari-extension.sh
+```
+
+This relaunches the wrapper app and opens Safari's Extensions preferences. You'll still need to manually re-enable **Developer → Allow Unsigned Extensions** if Safari reset it.
+
 ---
 
 ## Usage
