@@ -3,7 +3,8 @@
 # Note: You still need to manually re-enable "Allow Unsigned Extensions" from
 # Safari's Develop menu if it was reset.
 
-APP="/Users/sam/Documents/01-projects/comments-block/Comments Block/build/DerivedData/Build/Products/Debug/Comments Block.app"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+APP="$SCRIPT_DIR/Comments Block/build/DerivedData/Build/Products/Debug/Comments Block.app"
 
 if [ ! -d "$APP" ]; then
   echo "Error: App not found at: $APP"
