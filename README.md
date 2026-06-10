@@ -143,18 +143,18 @@ Safari blocks unsigned extensions by default. To enable them:
 3. Open **Safari → Settings → Extensions**, enable **Comments Block**, and grant it permission for `youtube.com`
 
 > **After each Safari restart (unsigned limitation):** Two things reset when Safari restarts:
-> 1. **The extension disappears** from the Extensions list — re-run the wrapper app (`open "Comments Block/build/DerivedData/Build/Products/Debug/Comments Block.app"` or press ⌘R in Xcode) to re-register it.
+> 1. **The extension disappears** from the Extensions list — run `./reregister-safari-extension.sh` (or press ⌘R in Xcode) to re-register it.
 > 2. **"Allow Unsigned Extensions" resets** — re-enable it from the Developer menu.
 >
 > Your toggle settings are always remembered. To avoid this permanently, either (a) add the wrapper app to **System Settings → General → Login Items** so it re-registers on every startup, or (b) sign the extension with an [Apple Developer account](https://developer.apple.com/programs/) ($99/year).
 
-**Quick re-register script:** Instead of opening Xcode, you can run the included helper script from the repo root:
+**Quick re-register script:** Instead of opening Xcode, run the included helper script from the repo root:
 
 ```bash
 ./reregister-safari-extension.sh
 ```
 
-This relaunches the wrapper app and opens Safari's Extensions preferences. You'll still need to manually re-enable **Developer → Allow Unsigned Extensions** if Safari reset it.
+This force-registers the app bundle and extension plugin with macOS Launch Services (the same step Xcode handles automatically), then opens Safari. After it runs, re-enable **Developer → Allow Unsigned Extensions** if needed, then check **Safari → Settings → Extensions** to enable Comments Block.
 
 ---
 
