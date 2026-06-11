@@ -6,6 +6,7 @@
 xcuserdata/
 DerivedData/
 *.xcworkspace/xcuserdata/
+"Comments Block/build/"
 
 # Firefox web-ext packaging output
 web-ext-artifacts/

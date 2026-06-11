@@ -148,13 +148,18 @@ Safari blocks unsigned extensions by default. To enable them:
 >
 > Your toggle settings are always remembered. To avoid this permanently, either (a) add the wrapper app to **System Settings → General → Login Items** so it re-registers on every startup, or (b) sign the extension with an [Apple Developer account](https://developer.apple.com/programs/) ($99/year).
 
-**Quick re-register script:** Instead of opening Xcode, run the included helper script from the repo root:
+**Quick re-register:** Instead of opening Xcode, double-click `reregister-safari-extension.command` in Finder, or run from the repo root:
 
 ```bash
 ./reregister-safari-extension.sh
 ```
 
 This force-registers the app bundle and extension plugin with macOS Launch Services (the same step Xcode handles automatically), then opens Safari. After it runs, re-enable **Developer → Allow Unsigned Extensions** if needed, then check **Safari → Settings → Extensions** to enable Comments Block.
+
+> **First time after cloning:** macOS quarantines files downloaded from the internet. If double-clicking the `.command` file is blocked, remove the quarantine flag once:
+> ```bash
+> xattr -d com.apple.quarantine reregister-safari-extension.command
+> ```
 
 ---
 
