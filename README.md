@@ -156,6 +156,13 @@ Safari blocks unsigned extensions by default. To enable them:
 
 This force-registers the app bundle and extension plugin with macOS Launch Services (the same step Xcode handles automatically), then opens Safari. After it runs, re-enable **Developer → Allow Unsigned Extensions** if needed, then check **Safari → Settings → Extensions** to enable Comments Block.
 
+**Auto-register on every Safari open (recommended):** Install the included LaunchAgent to keep the wrapper app running in the background. The extension will be registered whenever Safari opens, without any manual steps.
+
+```bash
+./install-launch-agent.sh   # install
+./uninstall-launch-agent.sh # remove it if you don't want it
+```
+
 ---
 
 ## Usage
