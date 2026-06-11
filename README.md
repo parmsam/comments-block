@@ -154,7 +154,7 @@ Safari blocks unsigned extensions by default. To enable them:
 ./reregister-safari-extension.sh
 ```
 
-This force-registers the app bundle and extension plugin with macOS Launch Services (the same step Xcode handles automatically), then opens Safari. After it runs, re-enable **Developer → Allow Unsigned Extensions** if needed, then check **Safari → Settings → Extensions** to enable Comments Block.
+Before running, make sure **Developer → Allow Unsigned Extensions** is already enabled in Safari — it must be on before the script runs, not after. The script force-registers the app bundle and extension plugin with macOS Launch Services (the same step Xcode handles automatically), then opens Safari. Afterwards, check **Safari → Settings → Extensions** to enable Comments Block.
 
 > **First time after cloning:** macOS quarantines files downloaded from the internet. If double-clicking the `.command` file is blocked, remove the quarantine flag once:
 > ```bash

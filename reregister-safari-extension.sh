@@ -1,7 +1,7 @@
 #!/bin/bash
 # Re-registers the Comments Block Safari extension after it disappears on quit.
-# Note: You still need to manually re-enable "Allow Unsigned Extensions" from
-# Safari's Develop menu if it was reset.
+# Note: "Allow Unsigned Extensions" (Safari > Develop menu) must be enabled
+# BEFORE running this script, or the extension won't register correctly.
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 APP="$SCRIPT_DIR/Comments Block/build/DerivedData/Build/Products/Debug/Comments Block.app"
@@ -30,6 +30,6 @@ open -a Safari
 
 echo ""
 echo "Done. If the extension still doesn't appear:"
-echo "  1. Fully quit Safari (Cmd+Q) and reopen it"
-echo "  2. Enable Safari > Develop > Allow Unsigned Extensions"
+echo "  1. Ensure Safari > Develop > Allow Unsigned Extensions is enabled (must be on before running this script)"
+echo "  2. Fully quit Safari (Cmd+Q) and reopen it"
 echo "  3. Go to Safari > Settings > Extensions and enable Comments Block"
