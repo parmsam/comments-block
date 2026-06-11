@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+Target 'Comments Block Extension (macOS)' in project 'Comments Block' (no dependencies)
